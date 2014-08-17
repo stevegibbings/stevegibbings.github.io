@@ -1,6 +1,7 @@
 # Site settings
 title: Steve Gibbings
-metatitle: Portfolio and blog of a freelance front-end web developer in London
+subtitle: Front-end Developer
+metatitle: Portfolio and blog of a freelance front-end developer in London
 email: me@stevegibbings.co.uk
 description: "I'm a London based professional with twenty years in the development industry, now I specialise in front-end engineering with a passion for standards, quality and innovation."
 baseurl: ""

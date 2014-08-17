@@ -63,9 +63,15 @@ p {
   font-size: 26px;
   letter-spacing: -1px;
   float: left;
-  line-height: 56px;
+  line-height: 49px;
   position: relative;
   z-index: 1;
+}
+
+.site-subtitle {
+  font-size: 16px;
+  color: #888;
+  padding-left: 15px;
 }
 
 .site-nav {
@@ -88,7 +94,7 @@ p {
   padding: 30px 0;
 }
 
-.footer-heading {
+.site-footer__heading {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: -.5px;
@@ -441,4 +447,15 @@ p {
     width: auto;
     margin: 0 0 15px; }
 
+}
+
+@media screen and (max-width: 400px) {
+  .site-subtitle {
+    display: block;
+    clear:left;
+    padding-left:0;
+    line-height: 1;
+    position: relative;
+    top:-8px;
+  }
 }
