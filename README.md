@@ -1,4 +1,4 @@
 stevegibbings.github.io
 =======================
 
-Github User Pages
+Github User Page
