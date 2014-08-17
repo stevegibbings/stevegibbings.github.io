@@ -1,0 +1,21 @@
+.skill {
+  margin-top:20px;
+}
+
+.skill-list {
+  list-style: none;
+  margin:0 0 25px;
+  padding:0;
+}
+
+.skill-list__item {
+  padding:5px 8px;
+  border:1px solid #999;
+  border-radius:8px;
+  background: #ddd;
+  &.skill-list__item--inline {
+    display:inline-block;
+    margin-right:5px;
+    margin-bottom:10px;
+  }
+}

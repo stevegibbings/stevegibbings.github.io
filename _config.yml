@@ -1,0 +1,20 @@
+# Site settings
+title: Steve Gibbings
+metatitle: Portfolio and blog of a freelance front-end web developer in London
+email: me@stevegibbings.co.uk
+description: "I'm a London based professional with twenty years in the development industry, now I specialise in front-end engineering with a passion for standards, quality and innovation."
+baseurl: ""
+host: localhost
+port: 4000
+url: "http://stevegibbings.github.io"
+twitter_username: stevegibbings
+github_username:  stevegibbings
+timezone: Europe/London
+
+# Build settings
+highlighter: pygments
+markdown: kramdown
+permalink: pretty
+exclude: ["bower_components", "Gemfile*", "README.md", "bower.json", "package.json", "Gruntfile.js", "LICENSE"]
+sass:
+  sass_dir: _sass
