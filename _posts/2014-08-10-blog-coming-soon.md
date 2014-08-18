@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coming Soon!"
+title:  "Blog coming Soon!"
 date:   2014-08-10 20:30:58
 categories: update
 ---

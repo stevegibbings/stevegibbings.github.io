@@ -66,6 +66,12 @@ p {
   line-height: 49px;
   position: relative;
   z-index: 1;
+  a:link, a:visited {
+    color:$blue;
+  }
+  a:hover, a:active, a:focus {
+    text-decoration: none;
+  }
 }
 
 .site-subtitle {
@@ -159,7 +165,7 @@ p {
 }
 
 .page-content {
-  padding: 30px 0;
+  padding: 15px 0;
   background-color: #fff;
   h2, h3, h4 {
     line-height: 1;
@@ -423,7 +429,13 @@ p {
     display: none;
   }
 
-  .site-nav:hover .trigger { display: block; }
+  .site-nav:hover {
+    min-width:33%;
+    .trigger {
+      display: block;
+    }
+
+  }
 
   .site-nav .page-link {
     display: block;
