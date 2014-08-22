@@ -2,30 +2,19 @@
  * Created by stevegibbings on 10/08/2014.
  */
 module.exports = function(grunt) {
+    require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
     grunt.initConfig({
-        wiredep: {
-
-            target: {
-
-                // Point to the files that should be updated when
-                // you run `grunt wiredep`
-                src: [
-                    'app/views/**/*.html',   // .html support...
-                    'app/views/**/*.jade',   // .jade support...
-                    'app/styles/main.scss',  // .scss & .sass support...
-                    'app/config.yml'         // and .yml & .yaml support out of the box!
-                ],
-
-                // Optional:
-                // ---------
-                cwd: '',
-                dependencies: true,
-                devDependencies: false,
-                exclude: [],
-                fileTypes: {},
-                ignorePath: '',
-                overrides: {}
+        pkg: grunt.file.readJSON('package.json'),
+        shell: {
+            build: {
+              command: 'bundle exec jekyll build'
+            },
+            serve: {
+                command: 'bundle exec jekyll serve --watch'
+                // ps aux | grep jekyll
             }
         }
     });
-}
+
+};

@@ -1,0 +1,20 @@
+{
+  "name": "stevegibbings.github.io",
+  "version": "0.0.1",
+  "description": "GitHub pages site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevegibbings/stevegibbings.github.io.git"
+  },
+  "author": "Steve Gibbings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevegibbings/stevegibbings.github.io/issues"
+  },
+  "homepage": "https://github.com/stevegibbings/stevegibbings.github.io",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-shell": "^0.7.0",
+    "matchdep": "~0.3.0"
+  }
+}
