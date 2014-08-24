@@ -7,13 +7,14 @@
 - name: Unit Testing
 - name: Karma
 - name: QUnit
+- name: Jasmine
 - name: SASS
 - name: Responsive Design
 - name: BEM
 - name: Jira
 - name: TeamCity
-- name: Visual Studio
 - name: Webstorm IDE
+- name: Visual Studio
 - name: Grunt
 - name: Bower
 - name: Git
