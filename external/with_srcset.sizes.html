@@ -22,7 +22,8 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.js" async></script>
+    <script src="https://cdn.rawgit.com/aFarkas/lazysizes/gh-pages/lazysizes.min.js" async></script>
 
 </head>
 <body>
@@ -30,14 +31,11 @@
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                <source srcset="
-			https://responsiveimages.org/demos/on-a-grid/img/yacht_race@mobile.jpg 320w,
-			https://responsiveimages.org/demos/on-a-grid/img/yacht_race@tablet.jpg 768w,
-			https://responsiveimages.org/demos/on-a-grid/img/yacht_race@desktop.jpg 1024w" sizes="
-                (min-width: 768px) 50vw,
-                100vw" alt="A very exciting yacht race.">
-                <!--[if IE 9]></video><![endif]-->
+                <source srcset="https://responsiveimages.org/demos/on-a-grid/img/yacht_race@mobile.jpg 320w,
+                                https://responsiveimages.org/demos/on-a-grid/img/yacht_race@tablet.jpg 768w,
+                                https://responsiveimages.org/demos/on-a-grid/img/yacht_race@desktop.jpg 1024w"
+                        sizes="(min-width: 768px) 50vw,
+                                100vw">
                 <img alt="A very exciting yacht race.">
             </picture>
             <noscript>
@@ -50,10 +48,27 @@
 
         </div>
     </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <picture>
+                <source data-srcset="https://responsiveimages.org/demos/on-a-grid/img/yacht_race@mobile.jpg 320w,
+                                https://responsiveimages.org/demos/on-a-grid/img/yacht_race@tablet.jpg 768w,
+                                https://responsiveimages.org/demos/on-a-grid/img/yacht_race@desktop.jpg 1024w"
+                        data-sizes="(min-width: 768px) 50vw,
+                                100vw"
+                        class="lazload">
+                <img alt="A very exciting yacht race.">
+            </picture>
+            <noscript>
+                <img srcset="https://responsiveimages.org/demos/on-a-grid/img/yacht_race@fallback.jpg" alt="A very exciting yacht race.">
+            </noscript>
 
-    <div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMake</p>
+
+        </div>
     </div>
-
 </div>
 
 
