@@ -22,7 +22,18 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.js"></script>
+    <script>
+        function loadJS(u){var r=document.getElementsByTagName("script")[ 0 ],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+        if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+            document.createElement('picture');
+            loadJS("plugins/respimg/ls.respimg.min.js");
+        }
+    </script>
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.loadMode = 1;
+    </script>
     <script src="https://cdn.rawgit.com/aFarkas/lazysizes/gh-pages/lazysizes.min.js" async></script>
 
 </head>
