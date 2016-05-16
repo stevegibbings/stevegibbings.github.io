@@ -1,6 +1,6 @@
 ---
 layout: page
-title: You & Your Wedding - Venue Finder web app
+title: You & Your Wedding - Venue Finder web app - DECOMMISSIONED DUE TO MERGER
 ---
 
 <article class="project">
