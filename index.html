@@ -1,19 +1,44 @@
 ---
 layout: page
-title: Portfolio and blog of a freelance front-end developer in London
+title: Portfolio - front-end developer in London
 ---
 
-<div class="home">
+<article class="project">
+    <a href="/portfolio/youandyourwedding">
+        <h2 class="project__title">You &amp; Your Wedding Venue Finder web app</h2>
+        <img class="project__image" sizes="(min-width: 680px) 33vw, 100vw" srcset="/assets/images/venuefinder-300px.jpg 300w, /assets/images/venuefinder-600px.jpg 600w" alt=""/>
+    </a>
+    <p>A mobile first responsive design web app using Bootstrap 3.</p>
+</article>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+<article class="project">
+    <a href="/portfolio/radiotimes">
+        <h2 class="project__title">RadioTimes</h2>
+        <img class="project__image" sizes="(min-width: 680px) 33vw, 100vw" srcset="/assets/images/radiotimes-300px.jpg 300w, /assets/images/radiotimes-600px.jpg 600w" alt=""/>
+    </a>
+    <p>The premier UK TV &amp; Radio News and Listings site</p>
+</article>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<article class="project">
+    <a href="/portfolio/golfmagic">
+        <h2 class="project__title">Golf Magic adaptive mobile site</h2>
+        <img class="project__image" sizes="(min-width: 680px) 33vw, 100vw" srcset="/assets/images/golfmagic-300px.jpg 300w, /assets/images/golfmagic-600px.jpg 600w" alt=""/>
+    </a>
+    <p>Desktop and Mobile adaptive specialist interest site.</p>
+</article>
 
-</div>
+<article class="project">
+    <a href="/portfolio/babyexpert">
+        <h2 class="project__title">BabyExpert adaptive mobile site</h2>
+        <img class="project__image" sizes="(min-width: 680px) 33vw, 100vw" srcset="/assets/images/babyexpert-300px.jpg 300w, /assets/images/babyexpert-600px.jpg 600w" alt=""/>
+    </a>
+    <p>Community based mother and baby site.</p>
+</article>
+
+<article class="project">
+    <a href="/portfolio/radiotimes-offers">
+        <h2 class="project__title">RadioTimes Offers</h2>
+        <img class="project__image" sizes="(min-width: 680px) 33vw, 100vw" srcset="/assets/images/radiotimes-offers-300px.jpg 300w, /assets/images/radiotimes-offers-600px.jpg 600w" alt=""/>
+    </a>
+    <p>HTML5 site of curated offers leveraging a huge brand.</p>
+</article>
