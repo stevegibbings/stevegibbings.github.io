@@ -1,12 +1,14 @@
-- name: OO Javascript
+- name: OO Javascript (inc es2015)
 - name: HTML5
 - name: CSS3
 - name: jQuery
+- name: AMD/CommonJS/es2015 modules
+- name: Webpack
+- name: Babel
 - name: Bootstrap 3
 - name: Handlebars
 - name: Unit Testing
 - name: Karma
-- name: QUnit
 - name: Jasmine
 - name: SASS
 - name: Responsive Design
@@ -15,7 +17,7 @@
 - name: TeamCity
 - name: Webstorm IDE
 - name: Visual Studio
-- name: Grunt
-- name: Bower
+- name: Grunt/Gulp
+- name: npm
 - name: Git
 - name: Adobe CS
